@@ -53,8 +53,6 @@ local function ToggleMask()
 
     local hasMask = exports.ox_inventory:Search('count', 'mask')
 
-    print('check for work')
-
     if mask == 0 then
         if hasMask >= 1 then
             MaskOn()
