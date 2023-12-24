@@ -6,7 +6,7 @@ RegisterNetEvent('mp-masks:server:GiveMaskItem', function(mask, tex)
     exports.ox_inventory:AddItem(src, "mask", 1, metadata)
 end)
 
-RegisterNetEvent('lucid-masks:server:RemoveMaskItem', function(item)
+RegisterNetEvent('mp-masks:server:RemoveMaskItem', function(item)
     local src = source
     local Player = exports.qbx_core:GetPlayer(src)
 
